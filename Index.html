@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasham Ur Rehman's Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Index.css">
+</head>
+
+<body>
+    <!-- Heading -->
+    <div class="container text-center">
+        <h1 class="display-4">Portfolio</h1>
+    </div>
+
+    <!-- Marquee -->
+    <div class="container text-center my-10">
+        <marquee behavior="scroll" direction="right" class="bg-info p-2 text-white rounded">I Welcome You To My
+            Portfolio!</marquee>
+    </div>
+
+    <!-- Profile Card -->
+    <div class="container d-flex justify-content-center my-20">
+        <div class="card shadow-lg" style="width: 35rem;">
+            <img src="Profile.JPG" class="card-img-top" alt="Profile Image">
+            <div class="card-body text-center">
+                <h5 class="card-title">Hasham Ur Rehman</h5>
+                <p class="card-text">Hi! I'm Hasham Ur Rehman, a frontend developer with a passion for creating
+                    beautiful and functional web and mobile applications. I specialize in HTML, CSS, JavaScript, bootstrap, Tailwind CSS, React Native, UI/UX (Figma & Canvas), Frontend Developer</p>
+                <p class="container d-flex justify-content-center my-20">I have completed my Bachelor's in Computer Science and love learning about new technologies.</p>
+                <!-- CV Button with Bootstrap and JS Alert -->
+                <a href="file:///D:/HashamUrRehman%20CV.pdf" class="btn btn-primary cv-button" target="_blank">View My
+                    CV</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Social Links Footer -->
+    <div class="container text-center my-5">
+        <a href="mailto:hashamurrehman01@example.com" class="m-10">
+            <img src="gmail.PNG" alt="Email" class="social-icon" style="width: 40px;">
+        </a>
+        <a href="https://www.linkedin.com/in/hasham-ur-rehman-694875279/" target="_blank" class="m-2">
+            <img src="linkedin.JPG" alt="LinkedIn" class="social-icon" style="width: 40px;">
+        </a>
+        <a href="https://github.com/HashamUrRehman?tab=projects" target="_blank" class="m-2">
+            <img src="github.PNG" alt="GitHub" class="social-icon" style="width: 40px;">
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center bg-dark text-white py-3">
+        <p>&copy; 2024 Hasham Ur Rehman. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap and Popper.js Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom JavaScript -->
+    <script>
+        document.querySelector('.cv-button').addEventListener('click', function () {
+            alert("You are about to view Hasham's CV!");
+        });
+    </script>
+</body>
+
+</html>
